@@ -1,7 +1,6 @@
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { NavLink } from "react-router-dom";
-import { Route, Link, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { App1 } from "./components/App1";
 import { App2 } from "./components/App2";
 import { Home } from "./components/Home";
@@ -37,7 +36,6 @@ function App() {
                 <a class="nav-link" href="/app2">
                   App 2
                 </a>
-                
               </div>
             </div>
           </div>
